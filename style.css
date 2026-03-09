@@ -100,3 +100,7 @@ footer .phone {
 .phone li:nth-child(3){
     margin-top: 30px;
 }
+li:hover {
+    color: #7E7E82;
+  cursor: pointer;
+}

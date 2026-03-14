@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('TTLakes-Regular.eot');
-    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
-        url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-Regular.woff') format('woff'),
-        url('TTLakes-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "TT Lakes";
+  src: url("TTLakes-Regular.eot");
+  src:
+    local("TT Lakes Regular"),
+    local("TTLakes-Regular"),
+    url("TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Regular.woff") format("woff"),
+    url("TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 * {
   margin: 0;
@@ -90,17 +92,16 @@ footer .phone {
   padding: 0px 23px;
 }
 
-.phone li{
-      padding: 6px 8px;
-
+.phone li {
+  padding: 6px 8px;
 }
 .phone li:nth-child(2) {
   font-weight: bold;
 }
-.phone li:nth-child(3){
-    margin-top: 30px;
+.phone li:nth-child(3) {
+  margin-top: 30px;
 }
 li:hover {
-    color: #7E7E82;
+  color: #7e7e82;
   cursor: pointer;
 }
